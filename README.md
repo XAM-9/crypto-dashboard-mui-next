@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+เป็นโปรเจกต์แสดงผล Crypto Portfolio Dashboard ที่ออกแบบมาให้มีความ กระชับ (Compact) และ สวยงามระดับพรีเมียม บนหน้าจอเดียว (Single-Page View) โดยใช้ Material-UI (MUI) และ Flexbox สำหรับการจัดวางที่แม่นยำ แทนที่ระบบ Grid แบบดั้งเดิม
 
-## Getting Started
+✨ ฟีเจอร์เด่น (Key Features)
+Compact Single-Page Layout: การจัดวางองค์ประกอบทั้งหมดให้อยู่ในหน้าจอเดียวโดยไม่ต้อง Scrollbar หลัก เหมาะสำหรับการแสดงผลบนจอขนาดใหญ่หรือเป็น Widget
 
-First, run the development server:
+Premium Light Mode UI: ใช้โทนสีสว่าง (Light Theme) ของ Material-UI พร้อม Shadow และ Transition ที่ทันสมัย
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Flexbox-based Structure: ใช้ Box และ Flexbox ในการจัดวางทั้งหมด เพื่อความยืดหยุ่นและการควบคุมระยะห่างที่แม่นยำกว่า Grid
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Real-time Chart Simulation: แสดงกราฟราคา Bitcoin และ Ethereum แบบจำลอง Real-time โดยใช้ Recharts
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Detailed Financial Overview: แสดงมูลค่าพอร์ตโฟลิโอรวม, การเปลี่ยนแปลง 24 ชม., และสถิติตลาดที่สำคัญ
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Modular Component Design: โครงสร้าง Component ที่ชัดเจนสำหรับ Assets Holdings และ Transaction History
 
-## Learn More
+🛠️ เทคโนโลยีที่ใช้ (Tech Stack)
+Framework: Next.js (App Router)
 
-To learn more about Next.js, take a look at the following resources:
+Styling/UI: Material-UI (MUI) v5+
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Charting: Recharts
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Animation: Framer Motion
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Icons: React Icons
