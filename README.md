@@ -1,25 +1,53 @@
-เป็นโปรเจกต์แสดงผล Crypto Portfolio Dashboard ที่ออกแบบมาให้มีความ กระชับ (Compact) และ สวยงามระดับพรีเมียม บนหน้าจอเดียว (Single-Page View) โดยใช้ Material-UI (MUI) และ Flexbox สำหรับการจัดวางที่แม่นยำ แทนที่ระบบ Grid แบบดั้งเดิม
+# 🪙 Crypto Portfolio Dashboard
 
-✨ ฟีเจอร์เด่น (Key Features)
-Compact Single-Page Layout: การจัดวางองค์ประกอบทั้งหมดให้อยู่ในหน้าจอเดียวโดยไม่ต้อง Scrollbar หลัก เหมาะสำหรับการแสดงผลบนจอขนาดใหญ่หรือเป็น Widget
+A modern, compact, and single-page **Crypto Portfolio Dashboard** built with **Next.js (App Router)** and **Material-UI (MUI)**. This project focuses on a premium UI design that eliminates the need for scrolling on desktop screens, providing a clean "Command Center" view of your assets.
 
-Premium Light Mode UI: ใช้โทนสีสว่าง (Light Theme) ของ Material-UI พร้อม Shadow และ Transition ที่ทันสมัย
+## ✨ Key Features
 
-Flexbox-based Structure: ใช้ Box และ Flexbox ในการจัดวางทั้งหมด เพื่อความยืดหยุ่นและการควบคุมระยะห่างที่แม่นยำกว่า Grid
+* **Compact Single-Page Layout:** Optimized for large screens to display all critical information without the need for a main scrollbar.
+* **Premium Light UI:** Designed with a clean Material-UI light theme, utilizing soft shadows and rounded corners.
+* **Real-time Chart Simulation:** Features dynamic charts using **Recharts** that simulate live price updates for Bitcoin and Ethereum every few seconds.
+* **Detailed Financial Overview:** Displays total portfolio balance, 24-hour percentage changes, and market statistics (Volume, BTC Dominance).
+* **Responsive Design:** Fully responsive layout using Flexbox and MUI's grid system, adapting seamlessly from mobile to desktop.
+* **Interactive Components:** Smooth transitions and animations powered by **Framer Motion**.
 
-Real-time Chart Simulation: แสดงกราฟราคา Bitcoin และ Ethereum แบบจำลอง Real-time โดยใช้ Recharts
+## 🛠 Tech Stack
 
-Detailed Financial Overview: แสดงมูลค่าพอร์ตโฟลิโอรวม, การเปลี่ยนแปลง 24 ชม., และสถิติตลาดที่สำคัญ
+* **Framework:** [Next.js 15](https://nextjs.org/) (App Router)
+* **UI Library:** [Material-UI (MUI v6)](https://mui.com/)
+* **Charting:** [Recharts](https://recharts.org/)
+* **Animations:** [Framer Motion](https://www.framer.com/motion/)
+* **Icons:** [React Icons](https://react-icons.github.io/react-icons/)
+* **Styling:** Emotion (MUI default) & CSS Modules
 
-Modular Component Design: โครงสร้าง Component ที่ชัดเจนสำหรับ Assets Holdings และ Transaction History
+## 🚀 Getting Started
 
-🛠️ เทคโนโลยีที่ใช้ (Tech Stack)
-Framework: Next.js (App Router)
+Follow these steps to run the project locally.
 
-Styling/UI: Material-UI (MUI) v5+
+### Prerequisites
 
-Charting: Recharts
+Ensure you have **Node.js** (v18.17.0 or later) installed on your machine.
 
-Animation: Framer Motion
+### Installation
 
-Icons: React Icons
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/your-username/crypto-dashboard.git](https://github.com/your-username/crypto-dashboard.git)
+    cd crypto-dashboard
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    # or
+    yarn install
+    # or
+    pnpm install
+    ```
+
+### Running the Development Server
+
+Start the local development server:
+
+```bash
+npm run dev
